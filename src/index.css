@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-nepali: 'Mukta', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+.font-nepali {
+  font-family: var(--font-nepali);
+}
+
+/* Custom scrollbars for curriculum, Q&A and question palette */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.6);
+}
+
+/* Video Player Anti-Piracy Watermark Animation */
+@keyframes watermarkFloat {
+  0% {
+    top: 12%;
+    left: 8%;
+    opacity: 0.28;
+  }
+  25% {
+    top: 68%;
+    left: 72%;
+    opacity: 0.38;
+  }
+  50% {
+    top: 25%;
+    left: 60%;
+    opacity: 0.22;
+  }
+  75% {
+    top: 75%;
+    left: 15%;
+    opacity: 0.35;
+  }
+  100% {
+    top: 12%;
+    left: 8%;
+    opacity: 0.28;
+  }
+}
+
+.animate-watermark {
+  animation: watermarkFloat 24s ease-in-out infinite;
+  pointer-events: none;
+  user-select: none;
+}

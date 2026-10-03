@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc2626" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="36" fill="url(#grad)" />
+  <!-- Graduation Cap & Open Book / Nepal double triangle silhouette motif -->
+  <path d="M96 42 L150 70 L96 98 L42 70 Z" fill="#ffffff" />
+  <path d="M140 84 V116 C140 120 134 126 96 138 C58 126 52 120 52 116 V84 L96 106 Z" fill="#ffffff" opacity="0.9" />
+  <path d="M152 74 V120 L156 126 L160 120 V74 Z" fill="#facc15" />
+  <circle cx="156" cy="128" r="3" fill="#facc15" />
+  <!-- Nepali script letter 'शि' subtle curve -->
+  <circle cx="96" cy="74" r="6" fill="#dc2626" />
+</svg>

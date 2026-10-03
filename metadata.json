@@ -1,0 +1,6 @@
+{
+  "name": "Shiksha LMS - Nepal E-Learning Platform",
+  "description": "Premier Nepalese e-learning platform for Loksewa, Banking, CMAT, and University entrance exams with local payment gateways (eSewa, Khalti), offline PWA caching, secure video classroom, and Bikram Sambat exam calendar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
